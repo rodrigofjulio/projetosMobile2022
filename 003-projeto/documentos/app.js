@@ -11,3 +11,12 @@ var novoSalarioInflacao = novoSalario - (inflacao * novoSalario);
 console.log(novoSalario);
 
 console.log(novoSalarioInflacao);
+
+//crie uma variável strnovoSalario e strnovoSalarioInflacao as tribua os valores
+
+var strnovoSalario = `O novo salário é:\n R$ \t\t${novoSalario}`;
+
+var strnovoSalarioInflacao = `O novo salário aplicada inflação é:\n ${novoSalarioInflacao}`;
+
+console.log(strnovoSalario);
+console.log(strnovoSalarioInflacao);
